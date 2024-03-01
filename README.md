@@ -16,5 +16,5 @@ Data not used for original training or transfer learning -- soft_sensor_implemen
 (last n days of 27.01.2024 - 20.02.2024 data period)
 
 
-![Soft Sensor Pipeline](images/soft sensor pipline.png)
+![Soft Sensor Pipeline](images/soft_sensor_pipline.png)
 
