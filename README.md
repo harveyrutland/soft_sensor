@@ -12,5 +12,9 @@ transfer learning (retraining to new test phase) -- live_implementation.csv
 
 
 Data not used for original training or transfer learning -- soft_sensor_implementation.csv 
-(This data uses a section taken form the end of the live_implementation.csv dataset, this data is used to replicate how the model will function as a sensor for in the loop implementation)
+(This data uses a section taken form the end of the live_implementation.csv dataset, in aplication this will use live sensor data. Modelling with this aims to replicate how the model will function as a sensor for in the loop implementation)
 (last n days of 27.01.2024 - 20.02.2024 data period)
+
+
+![Soft Sensor Pipeline](images/soft_sensor_pipline.png)
+
