@@ -54,9 +54,9 @@ This example demonstrates how the model is periodically retrained with real data
 
 
 ### DIRECTORIES:
-`Model phase 1` = Models trained during optimisation / search phase
-`Model phase 2` = Optimisal model retrained using updated dataset 
-`Model phase 3 Blind` = Models retrained with freuency N 
-`Model phase 3 Active` = Models retrained with freuency N with real data added
-`Model phase 3 Active2` = Idetnical to `Model phase 3 Active` All layers of model are frozen except for last layer. 
+- **Model Phase 1**: Models that are trained during the initial optimization/search phase.
+- **Model Phase 2**: The optimal model that is retrained using an updated dataset.
+- **Model Phase 3 Blind**: Models that are retrained at a fixed frequency `N`, without the addition of new real data.
+- **Model Phase 3 Active**: Models that are retrained at frequency `N` with new real data incorporated.
+- **Model Phase 3 Active2**: Similar to **Model Phase 3 Active**, but with all layers of the model frozen except for the last layer.
 
