@@ -21,7 +21,7 @@ key information on data:
 ![Retrain Plan](images/retrain_plan.png)
 
 1. **Phase 1**:
-Initial Training: A model, referred to as Model 1, is trained using Dataset 1. This phase involves training and optimization to predict a specific target feature (T), which is typically obtained through labor-intensive laboratory analysis. The input features for the model are collected through online sensing and monitoring.
+Initial Training: The first model referred to as Model 1, is trained using Dataset 1. This phase involves training and optimization to predict a specific target feature (T), which is typically obtained through labor-intensive laboratory analysis. The input features for the model are collected through online sensing and monitoring.
 2. **Phase 2**:
 Retraining with Additional Data: The model undergoes a retraining process with an aggregated dataset that combines Dataset 1 and Dataset 2. This aggregation reflects a possible change in operational conditions, which Dataset 2 represents. The model retrained with this combined dataset is referred to as Model 2.
 3. **Phase 3**:
