@@ -53,6 +53,10 @@ This example demonstrates how the model is periodically retrained with real data
 6. **Continuous Monitoring**: Ongoing performance monitoring ensures the model remains effective. The retraining schedule is adhered to, maintaining prediction quality over time.
 
 
-
-
+### DIRECTORIES:
+`Model phase 1` = Models trained during optimisation / search phase
+`Model phase 2` = Optimisal model retrained using updated dataset 
+`Model phase 3 Blind` = Models retrained with freuency N 
+`Model phase 3 Active` = Models retrained with freuency N with real data added
+`Model phase 3 Active2` = Idetnical to `Model phase 3 Active` All layers of model are frozen except for last layer. 
 
