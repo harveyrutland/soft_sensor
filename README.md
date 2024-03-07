@@ -3,7 +3,7 @@ key information on data:
 
 ### Original training data -- Dataset 1
 (dataset1.csv, dataset from operation of mec-ad reactor controlled by threshold based autonomous feeding)
-12.11.2023 - 20.11.2023 
+12.11.2023 - 20.12.2023 
 
 
 ### Transfer learning (retraining to new test phase) -- Dataset 2
